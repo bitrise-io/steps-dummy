@@ -1,0 +1,11 @@
+title: Dummy
+summary: Dummy
+description: Dummy
+
+website: https://github.com/trapacska/steps-dummy
+source_code_url: https://github.com/trapacska/steps-dummy
+support_url: https://github.com/trapacska/steps-dummy/issues
+
+toolkit:
+  go:
+    package_name: github.com/trapacska/steps-dummy
