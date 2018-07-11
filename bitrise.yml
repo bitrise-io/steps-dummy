@@ -71,7 +71,7 @@ workflows:
       environments are set to the desired values!
       To share this Step into a StepLib you can just run: $ bitrise run share-this-step
       Once it finishes the only thing left is to actually create a Pull Request,
-      the way described in the guide printed at the end of the process.
+      the way described in the guide printed at the end of the process....
     before_run:
     - audit-this-step
     steps:
