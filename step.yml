@@ -9,3 +9,22 @@ support_url: https://github.com/trapacska/steps-dummy/issues
 toolkit:
   go:
     package_name: github.com/trapacska/steps-dummy
+    
+inputs:
+- api_token: 
+  opts:
+    title: Personal API token
+    summary: Github Personal API token used to access the GitHub API.
+    description: |-
+      Github Personal API token used to access the GitHub API.
+      Create your own token: https://github.com/settings/tokens
+      The following scopes needs to be enabled for the token:
+      - repo/public_repo
+    is_required: true
+    is_sensitive: true
+- username: 
+  opts:
+    title: Username
+    summary: Your Github user name
+    description: Your Github user name
+    is_required: true
