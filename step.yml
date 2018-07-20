@@ -28,3 +28,4 @@ inputs:
     summary: Your Github user name
     description: Your Github user name
     is_required: true
+    is_expand: false
